@@ -1,0 +1,19 @@
+.max img {
+    width: 500px;
+    height: 450px;
+  }
+  .max h2{
+      margin-bottom: 25px;
+  }
+  .max{
+      min-height: 590px;
+      background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  }
+  .max p{
+     font-size: 19px;
+  }
+  .max a {
+    text-decoration: none;
+    color: white;
+  }
+  

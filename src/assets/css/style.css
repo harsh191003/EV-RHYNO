@@ -1,0 +1,284 @@
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 100;
+    src: url(../font/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'poppins';
+    font-weight: 300;
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'poppins';
+    font-weight: 400;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'poppins';
+    font-weight: 500;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 600;
+    src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'poppins';
+    font-weight: 700;
+    src: url(../font/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 900;
+    src: url(../font/Poppins-Black.ttf);
+}
+
+body{
+    font-family: 'poppins';
+    font-weight: 400;
+    
+}
+.h-auto{
+    height: auto;
+}
+.word-break-all{
+    word-break: break-all;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.footer{
+        line-height: 25px;
+        color: #8d919a; 
+        font-size: 13px;
+        font-weight: 500;
+        
+}
+
+/* font-size */
+.f-size{
+    font-size: 20px;
+}
+.f-size-1{
+    font-size: 13px;
+}
+.f-size-2{
+    font-size: 15px;
+}
+/*background-size*/
+.b-size-100{
+    background-size: 100%;
+}
+/* line-height */
+.line-height-1{
+    line-height: 25px;
+}
+.line-height-2{
+    line-height: 21px;
+}
+/* line-style */
+.li-inside{
+    list-style: disc inside;
+}
+/* min-height */
+.m-height-1{
+    min-height: 28.2vh;
+}
+.m-height-2{
+    min-height: 37.8vh;
+}
+/*background-repeat*/
+.b-repeat-round{
+    background-repeat:round ;
+}
+/* height */
+.h-45{
+    height: 47px;
+}
+.h-52{
+    height: 52px;
+}
+/* border */
+.b-0{
+    border: none;
+}
+.b-left-ora{
+border-left: 7px solid #fe740d;
+}
+/* padding */
+.p-right-1{
+    padding-right: 45px
+}
+/* border-radius */
+.b-radius-1{
+    border-radius: 20px;
+}
+.br-35{
+    border-radius: 35px;
+}
+.b-radius-2{
+    border-radius: 35px 35px 0px;
+}
+.b-radius-3{
+    border-radius: 35px 35px 35px 0px;
+}
+.b-radius-4{
+    border-radius: 80px 80px 0px 0px ;
+}
+.b-radius-5{
+    border-radius: 10px;
+}
+.b-radius-6{
+    border-radius: 35px;
+}
+.b-radius-7{
+    border-radius: 15px;
+}
+.b-radius-8{
+    border-radius: 50px 50px 0px 0px ;
+}
+/* box-shadow */
+.box-shadow-1{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px;
+}
+/* font-weight */
+.f-weight-1{
+    font-weight: 100;
+}
+.f-weight-2{
+    font-weight: 200;
+}
+.f-weight-3{
+    font-weight: 300;
+}
+.f-weight-4{
+    font-weight: 400;
+}
+.f-weight-5{
+    font-weight: 500;
+}
+.f-weight-6{
+    font-weight: 600;
+}
+.f-weight-7{
+    font-weight: 700;
+}
+.f-weight-8{
+    font-weight: 800;
+}
+.f-weight-9{
+    font-weight: 900;
+}
+/*color*/
+
+.sec-header ul li a,
+.txt-color-1{
+    color: #1b1b1b;
+}
+.bg-color-1{
+    background-color: #1b1b1b;
+}
+.sec-header ul li a:hover,
+.sec-header ul li.active> a,
+.txt-color-2{
+    color: #ff6d00;
+}
+.sec-header ul li .show a.active,
+.bg-color-2{
+    background-color: #ff6d00;  
+}
+.txt-color-3{
+    color: #1f3e7a;
+}
+.bg-color-3{
+    background-color: #1f3e7a;
+}
+.sec-header ul li .show a.active,
+.txt-color-4{
+    color: #fff;
+}
+.bg-color-4{
+    background-color: #fff;  
+}
+.bg-color-5{
+    background-color: #f3f3f2;
+}
+
+.take-our-experts,
+.bg-color-3{
+    background-color: #1f3e7a; 
+} 
+/* background-color */
+.b-color-1{
+    background-color: #1f3e7a; 
+} 
+.b-color-2{
+    background-color: #ffffff;
+}
+.b-color-3{
+    background-color: #ff8124;  
+}
+.b-color-4{
+    background-color:#f4f4f4;  
+}
+.b-color-5{
+    background-color: #f2f2f2;
+}
+.b-color-6{
+    background-color: #1c2a44;
+}
+/* hover */
+.hover-1:hover{
+    color:aliceblue ;
+}
+.hover-2:hover{
+    color: #262626;
+}
+.hover-7:hover{
+    color: #8d919a;  
+}
+/* text-color */
+
+.color-1{
+    color: aliceblue;  
+}
+.color-2{
+    color: #262626; 
+}
+.color-3{
+    color: #1f3e7a;
+}
+.color-4:hover{
+    color: #ffa51a;
+}
+.color-5{
+    color: #ffa51a; 
+}
+.color-6{
+    color: #f16904;
+}
+.color-7{
+    color: #8d919a;
+}
+.color-8{
+    color: #fef4ed;
+}
+.color-9{
+    color: #505052;
+}
+
+/* background-img */
+.b-img-1{
+    background-image: url(../images/banner1.png);
+}
+.b-img-2{
+    background-image: url(../images/inner-pages/banner.png);
+    background-repeat: no-repeat;
+}
+
+
+

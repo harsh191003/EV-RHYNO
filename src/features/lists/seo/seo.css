@@ -1,0 +1,18 @@
+.seo img {
+  width: 500px;
+  height: 450px;
+}
+.seo h2 {
+  margin-bottom: 25px;
+}
+.seo {
+  min-height: 590px;
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+.seo p {
+  font-size: 19px;
+}
+.seo a {
+  text-decoration: none;
+  color: white;
+}

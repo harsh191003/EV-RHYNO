@@ -1,0 +1,125 @@
+.menu-bar span.fa{
+    display: none;
+    cursor: pointer;
+}
+.menu-bar[aria-expanded="false"] span.fa-ellipsis-v{
+    display: inline-block;
+}
+.menu-bar[aria-expanded="true"] span.fa-times{
+    display: inline-block;
+}
+.sec-banner .carousel-item{
+    height: 480px;
+}
+.sec-header ul li a{
+    font-weight: 500;
+    font-size: 13px;
+}
+.take-our-experts{
+    font-size: 12px;
+    letter-spacing: 0.8px;
+}
+.take-our-experts i{
+    font-size: 24px;
+}
+.user-icon{
+    width: 50px;
+    box-shadow: 0px 0px 0px 1px #cbcbcb;
+    margin-left: 10px;
+}
+.sec-choose li{
+    margin-bottom: 14px;
+}
+.sec-clients img{
+    width: 19%;
+    margin: 0 3%;
+}
+#errorMsg{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgb(199, 8, 8);
+    font-size: 12px;
+    padding: 4px 0;
+}
+#successMsg{
+    background-color: #ddd;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 607px;
+    border-radius: 8px;
+    text-align: center;
+}
+#successMsg h2{
+    font-size: 24px;
+}
+#successMsg  i{
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    color: #d70000;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+    .menu-content{
+        position: absolute;
+        right: 0;
+        width: 220px;
+        background: #fff;
+        top: 62px;
+        z-index: 1;
+        padding: 10px 10px 40px 20px;
+        box-shadow: -1px 0px 0px 0px #a7a5a5;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width: 991px){
+    .sec-banner .carousel-item{
+        height: 420px;
+    }
+    
+    .sec-clients img{
+        width: 27.33%;
+        margin: 0 3%;
+    }
+}
+@media screen and (min-width:576px) and (max-width: 767px){
+    .inner-banner{
+        background-size: cover !important;
+    }
+    .sec-banner .main-banner{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .sec-banner .carousel-item{
+        height: 600px;
+    }
+    
+    .sec-clients img{
+        width: 27.33%;
+        margin: 0 3%;
+    }
+}
+@media screen and (max-width: 575px){
+    
+    .sec-banner .main-banner{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .sec-banner .main-banner img{
+        max-width: 290px !important ;
+    }
+    .sec-banner .carousel-item{
+        height: 600px;
+    }
+    .inner-banner{
+        background-size: cover !important;
+    }
+    .sec-clients img{
+        width: 33%;
+        margin: 0%;
+    }
+}

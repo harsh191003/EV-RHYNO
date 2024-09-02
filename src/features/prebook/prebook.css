@@ -1,0 +1,24 @@
+.prebook .col-4 {
+  background: linear-gradient(45deg, #2beaf1, #1976a4);
+
+}
+.prebook .form {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.prebook button {
+  border: 0px;
+  color: white;
+  background-color: rgb(26, 86, 227);
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+
+.prebook button:hover {
+  background-color: rgb(1, 18, 171); /* Light blue color */
+}
+.prebook{
+    min-height: 590px;
+}

@@ -1,0 +1,39 @@
+.contact {
+  min-height: 590px;
+
+}
+body{
+ 
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+.contact .col-10 {
+  background: linear-gradient(45deg, rgba(21, 252, 160, 0.873), rgba(62, 226, 84, 0.341)); /* Example gradient */
+}
+
+.contact .form {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.contact button {
+  border: 0px;
+  color: white;
+  background-color: rgb(30, 139, 203);
+}
+.contact button:hover {
+  background: linear-gradient(45deg, rgb(6, 80, 141), rgb(4, 108, 143)); /* Gradient on hover */
+}
+.contact span {
+  font-size: 25px;
+}
+.contact label {
+  font: 25px;
+}
+.contact .color {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+i{
+  fill:mediumvioletred;
+}
+

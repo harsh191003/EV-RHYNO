@@ -1,0 +1,19 @@
+.footer {
+  background-color: #252525;
+  color: white;
+}
+.footer p {
+  margin: 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+.footer ul {
+  margin: 0px;
+}
+.footer ul li {
+  line-height: 25px;
+}
+.footer .footer__columns {
+  display: grid;
+  grid-template-columns: auto auto auto 10%;
+}
